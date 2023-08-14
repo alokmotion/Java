@@ -23,8 +23,8 @@ Best regards,
 
 
 
-<h1> Why Suffix "F" is required to store the real number literals in float Type variable. </h1>
+<h4> Why Suffix "F" is required to store the real number literals in float Type variable. </h4>
 
-<h1> Why suffix "L" is used to store the long literals </h1>
+<h4> Why suffix "L" is used to store the long literals </h4>
 
-<h1> what is difference between print and println in java </h1>
+<h4> what is difference between print and println in java </h4>
