@@ -10,7 +10,7 @@
 
 Thank you for your interest in accessing my Google Doc notes. In order to maintain privacy and control over the sharing of my content, I kindly request that you follow these steps:
 
-**Follow My GitHub Account:** Please follow my GitHub account, @alokmotion, to stay updated on my projects and activities.
+**Follow My GitHub Account:** Please follow my GitHub account, **@alokmotion**, to stay updated on my projects and activities.
 
 **Send an Access Request:** After you've followed my GitHub account, please send me an access request by **Java** in the repository dedicated to access requests. In your issue, briefly introduce yourself and explain why you're interested in accessing my Google Doc notes. This will help me understand how my notes might be beneficial to you.
 
