@@ -28,3 +28,5 @@ Best regards,
 <h4> Why suffix "L" is used to store the long literals </h4>
 
 <h4> what is difference between print and println in java </h4>
+
+<h4>What is Methods in java</h4>
