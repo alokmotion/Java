@@ -33,3 +33,17 @@ Best regards,
 
 <h4>What is Methods in java Overloading </h4>
 
+
+## Question Practice
+
+---------------------------------------------------------------------------------------------------------------------------------
+ 1. Write a java program to calculate and display the area for square, rectangle and circle. Take the user input in the main method.\
+Note:
+write a method calculateArea(int side ) to calculate the area for square.\
+Write a method calculateArea(int length, int breadth ) to calculate the area for the rectangle.\
+Write a method calculateArea(float radius) to calculate the area for a circle.
+----------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+
