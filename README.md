@@ -160,4 +160,200 @@ In the sample input, the numbers given to the functions are (20, 5), (4, 5), (20
 </details>
 
 -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<details>
+  <summary> Question: 3 
+  Problem: The Double Trouble 
+ </summary>
+
+ 
+ You are participating in a coding competition at your school. The challenge is to create a function that can double the value of any number provided. This function will help in the game design where scores need to be doubled under certain conditions. 
+  
+Function: 
+public static int doubleTheNumber(int num); 
+  
+  
+  
+Inputs: 
+ The function doubleTheNumber(int num) will receive one parameter: 
+•	num : an integer which represents the number to be doubled. 
+  
+Outputs: 
+The function will return an integer - the result of doubling the num. 
+  
+Sample Input:  
+doubleTheNumber(15); 
+  
+Sample Output: 
+30 
+  
+Note:  
+In the sample input, the number given to the function is 15. The double of this number is 15*2=30, so the function returns 30 as the output. Your function should work accurately to make sure you win this competition. Good Luck! 
+  
+
+
+  </details>
+
+  --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+  <details>
+   <summary>Question: 4  
+ Problem: The String Joiner 
+</summary>
+
+You are creating a new social networking site. In one of the features, you have to combine the user's first name and last name to display the full name. Your task is to write a static method that will concatenate two strings. 
+  
+Function: 
+public static String joinStrings(String str1, String str2); 
+  
+  
+  
+Inputs: 
+The function joinStrings(String str1, String str2) will receive two parameters: 
+•	str1 :a string which represents the first string. 
+•	str2 : a string which represents the second string. 
+  
+Outputs: 
+The function will return a string - the result of concatenating str1 and str2. 
+  
+Sample Input:  
+joinStrings("Hello, ", "World!"); 
+  
+Sample Output:  
+"Hello, World!" 
+  
+Note:  
+In the sample input, the function is given two strings: "Hello, " and "World!". These two strings are concatenated to form "Hello, World!", which is the output. Make sure your function works properly to display the user's full name correctly on the social networking site. 
+  
+
+   
+  </details>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
+<details>
+ <summary>Question 5: 
+ Problem: The Journey Calculator 
+</summary>
+
+ You are a developer at a transportation company. The company is developing a new app that helps users track their journey. One of the features of the app is to calculate the distance travelled given the speed and time of the journey. Your task is to create a method that takes speed and time and returns the distance travelled. This method should be a non-static method and should be implemented inside a class named JourneyCalculator. 
+  
+Class Definition: 
+  
+public class JourneyCalculator { 
+    public double calculateDistance(double speed, double time); 
+} 
+  
+  
+Inputs: 
+  
+The method calculateDistance(double speed, double time) will receive two parameters: 
+•	speed : a double representing the speed of the vehicle in km/h. 
+•	time : a double representing the time travelled in hours. 
+  
+Outputs: 
+  
+The method will return a double - the distance travelled. Round off the result to 2 decimal places. 
+  
+Sample Input: 
+  
+JourneyCalculator journeyCalculator = new JourneyCalculator(); 
+journeyCalculator.calculateDistance(60.0, 1.5); 
+  
+Sample Output: 
+  
+90.00 
+  
+  
+Note: 
+  
+In the sample input, the user's speed is 60 km/h and the time travelled is 1.5 hours. The distance travelled is speed*time = 60*1.5 = 90 kilometers, so the method returns 90.00 as the output. Your method will be crucial in helping users track their journey accurately. Good luck, developer! 
+
+</details>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<details>
+ <summary> Question 6: 
+Problem: The Temperature Converter 
+</summary>
+
+ You are working as a software developer at a weather forecasting company. The company is developing a new feature for their app that allows users to convert temperatures from Fahrenheit to Celsius. Your task is to create a method that takes a temperature in Fahrenheit and converts it to Celsius.  
+  
+Hint: The formula to convert temperature from Fahrenheit to Celsius is:  
+C = (F - 32) * 5/9 
+  
+Where: 
+•	C is the temperature in Celsius 
+•	F is the temperature in Fahrenheit 
+  
+Class Definition: 
+public class TemperatureConverter { 
+    public double convertFahrenheitToCelsius(double fahrenheit); 
+} 
+  
+Inputs: 
+The method convertFahrenheitToCelsius(double fahrenheit) will receive one parameter: 
+•	fahrenheit : a double representing the temperature in Fahrenheit. 
+  
+Outputs: 
+The method will return a double - the temperature converted to Celsius.  
+  
+Sample Input: 
+TemperatureConverter temperatureConverter = new TemperatureConverter(); 
+temperatureConverter.convertFahrenheitToCelsius(68.0); 
+  
+Sample Output: 
+20.00 
+  
+Note: 
+  
+In the sample input, the user's temperature in Fahrenheit is 68.0. The temperature in Celsius is (68 - 32) * 5/9 = 20.00, so the method returns 20.00 as the output. Your method will be crucial in helping users understand the temperature in Celsius. Good luck, developer! 
+  
+
+</details>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<details>
+ <summary>Question 7 : 
+ Problem: Semester Marks Averager 
+</summary>
+
+
+ You are creating a student portal for your school. The portal needs to display the average marks of a student for 8 semesters. Your task is to write a Java function that takes the marks of each semester individually and returns the average. 
+  
+Function: 
+  
+public static double calculateAverage(int sem1, int sem2, int sem3, int sem4, int sem5, int sem6, int sem7, int sem8); 
+  
+  
+Inputs: 
+  
+The function calculateAverage(i85sem7, int sem8) will receive eight parameters: 
+•	sem1, sem2, sem3, sem4, sem5, sem6, sem7, sem8 : Eight integers each representing the total marks obtained in a semester. 
+  
+Outputs: 
+  
+The function will return a double - the average marks over 8 semesters.   
+Example: 
+  
+Sample Input: 
+  
+calculateAverage(85, 79, 91, 76, 88, 95, 80, 85); 
+  
+  
+Sample Output: 
+  
+84.88 
+  
+  
+Note: 
+  
+In the sample input, the marks for the 8 semesters are given. The average of these marks is (85+79+91+76+88+95+80+85)/8 = 84.88. So, the function returns 84.88 as the output. Make sure your function calculates the average correctly to display accurate information on the student portal. 
+  
+
+</details>
 
