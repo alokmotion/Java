@@ -402,3 +402,86 @@ In the sample input, the player is at a level where the number to square is 7. T
 
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+<details>
+ <summary>Question: 9 
+Problem: The Cube Mystery 
+</summary>
+
+ You are a software engineer developing an innovative educational game for kids. This game helps kids understand the concept of cubes in a fun and interactive way. In one of the stages, the kids are given a number and they have to find out the cube of that number to solve a mystery. Your task is to create a function that will calculate the cube of a given number. 
+  
+Function: 
+  
+public static int cubeNumber(int num); 
+  
+  
+Inputs: 
+  
+The function cubeNumber(int num) will receive one parameter: 
+•	num : an integer which represents the number that the player has to cube. 
+  
+Outputs: 
+  
+The function will return an integer - the cube of num. 
+  
+Example: 
+  
+Sample Input: 
+  
+cubeNumber(3); 
+  
+Sample Output: 
+  
+27 
+  
+Note: 
+  
+In the sample input, the kid is at a stage where the number to cube is 3. The cube of this number is 3*3*3=27, so the function returns 27 as the output. The function you develop will be essential in helping the kids solve the Cube Mystery. Good luck, game engineer! 
+  
+
+</details>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+<details>
+ <summary> Question:10 
+  Problem: The Secret Message Decoder 
+</summary>
+
+
+ You are a software engineer at a secret spy agency. The agency often receives secret messages encoded in Unicode. Your task is to build a method that accepts a character and displays its Unicode, helping the agents decode the messages quickly and efficiently. 
+  
+Class Definition: 
+  
+public class MessageDecoder { 
+    public int decodeCharacter(char ch); 
+} 
+  
+Inputs: 
+  
+The method decodeCharacter(char ch) will receive one parameter: 
+•	ch : a character representing the encoded message. 
+  
+Outputs: 
+  
+The method will return an integer - the Unicode of the received character. 
+  
+Example: 
+  
+Sample Input: 
+MessageDecoder decoder = new MessageDecoder(); 
+decoder.decodeCharacter('A'); 
+  
+Sample Output: 
+65 
+  
+Note: 
+  
+In the sample input, the spy agency has received a message with the character 'A'. The Unicode for 'A' is 65, so the method returns 65 as the output. Your method will play a crucial role in decoding the secret messages and ensuring the success of the agency's missions. Good luck, coder agent! 
+
+
+</details>
+
+---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+
+
