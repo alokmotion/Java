@@ -530,5 +530,7 @@ In the sample input, the radius of the planet (sphere) is 3.0 units. The surface
 
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <details>
- <summary></summary>
+ <summary>
+  
+ </summary>
 </details>
