@@ -531,6 +531,8 @@ In the sample input, the radius of the planet (sphere) is 3.0 units. The surface
 ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 <details>
  <summary>
-  
+  What is the Shadowing Problem in Java?
  </summary>
+Shadowing problem in the scenario in which local variable and instance variable will have the same name and the assignment of the values will not happen from local to instance rather it will happen from local to local and instance variable values will not be changed.
+ 
 </details>
